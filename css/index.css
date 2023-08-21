@@ -1,0 +1,431 @@
+/* 字体图标样式 */
+/*声明字体图标这里一定要注意路径的变化*/
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tznqip');
+    src: url('../fonts/icomoon.eot?tznqip#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?tznqip') format('truetype'),
+        url('../fonts/icomoon.woff?tznqip') format('woff'),
+        url('../fonts/icomoon.svg?tznqip#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+    overflow: hidden;
+}
+
+.focus ul {
+    width: 3605px;
+}
+
+.focus img {
+    float: left;
+    width: 721px;
+    height: 455px
+}
+
+.newflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.news-hd {
+    height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    line-height: 33px;
+}
+
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+    padding: 0 14px;
+}
+
+
+.news-hd .more {
+    float: right;
+}
+
+.news-hd .more::after {
+    content: "";
+    font-family: 'icomoon';
+}
+
+.news-bd {
+    padding: 5px 15px 0;
+}
+
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    overflow: hidden;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    background: url(../images/jlt.png) no-repeat -16px -15px;
+    margin-top: 12px;
+}
+
+.bargain {
+    width: 250px;
+    height: 75px;
+    margin-top: 6px;
+}
+
+.bargain img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 推荐模块 */
+.recom {
+    height: 163px;
+    background-color: #ecedec;
+    margin-top: 12px;
+}
+
+.recom_hd {
+    float: left;
+    height: 163px;
+    width: 205px;
+    background-color: #645d59;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.recom_hd img {
+    display: inline-block;
+    width: 35%;
+    height: 60%;
+}
+
+.recom_bd {
+    float: left;
+}
+
+.recom_bd ul li {
+    position: relative;
+    float: left;
+    width: 248px;
+    height: 163px;
+}
+
+.recom_bd ul li:nth-child(-n+4):after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+
+.recom_bd ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 猜你喜欢模块 */
+.like {
+    height: 260px;
+    /* background-color: skyblue; */
+    margin-top: 12px;
+}
+
+.like_hd {
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+}
+
+.like_hd h4 {
+    float: left;
+    font-size: 18px;
+}
+
+.like_hd a {
+    float: right;
+    font-size: 14px;
+    margin-right: 50px;
+}
+
+.like_hd a::after {
+    position: absolute;
+    top: 4px;
+    right: 35px;
+    content: "";
+    font-family: 'icomoon';
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.like_bd {
+    height: 230px;
+    border: 1px solid #e4e4e4;
+    overflow: hidden;
+}
+
+.like_bd a {
+    display: block;
+    float: left;
+    width: 199.67px;
+    height: 228px;
+    background-color: #ecedec;
+    border-right: 1px solid #e4e4e4;
+}
+.like_bd img{
+    width: 100%;
+    height: 100%;
+}
+.like_bd a:hover img {
+    transform: scale(1.2);
+}
+
+/* 家用电器模块 */
+.appliances {
+    height: 260px;
+    /* background-color: skyblue; */
+    margin-top: 12px;
+}
+
+.appliances_hd {
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+}
+
+.appliances_hd h4 {
+    float: left;
+    font-size: 18px;
+}
+
+.appliances_hd a {
+    float: right;
+    font-size: 14px;
+    margin-right: 50px;
+}
+
+.appliances_hd a::after {
+    position: absolute;
+    top: 4px;
+    right: 35px;
+    content: "";
+    font-family: 'icomoon';
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.appliances_bd {
+    height: 230px;
+    border: 1px solid #e4e4e4;
+}
+
+.appliances_bd a {
+    display: block;
+    float: left;
+    width: 199.67px;
+    height: 228px;
+    background-color: #ddd;
+    border-right: 1px solid #e4e4e4;
+}
+
+/* 手机通讯 */
+.phone {
+    height: 260px;
+    /* background-color: skyblue; */
+    margin-top: 12px;
+}
+
+.phone_hd {
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+}
+
+.phone_hd h4 {
+    float: left;
+    font-size: 18px;
+}
+
+.phone_hd a {
+    float: right;
+    font-size: 14px;
+    margin-right: 50px;
+}
+
+.phone_hd a::after {
+    position: absolute;
+    top: 4px;
+    right: 35px;
+    content: "";
+    font-family: 'icomoon';
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.phone_bd {
+    height: 230px;
+    border: 1px solid #e4e4e4;
+}
+
+.phone_bd a {
+    display: block;
+    float: left;
+    width: 199.67px;
+    height: 228px;
+    background-color: #ddd;
+    border-right: 1px solid #e4e4e4;
+}
+
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.box_hd .tab_list {
+    float: right;
+    line-height: 30px;
+}
+
+.box_hd .tab_list ul li {
+    float: left;
+}
+
+.box_hd .tab_list ul li:nth-child(even) {
+    width: 0px;
+    height: 15px;
+    border: 1px solid #888;
+    margin-top: 8px;
+    border-radius: 1px;
+}
+
+.box_hd .tab_list ul li:last-child {
+    display: none;
+}
+
+.box_hd .tab_list ul li a {
+    padding: 0 15px;
+}
+
+.floor {
+    margin-top: 30px;
+}
+
+.box_bd {
+    height: 361px;
+}
+
+.tab_list_item>div {
+    float: left;
+    height: 361px;
+}
+
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+}
+
+.col_210 ul {
+    padding: 12px;
+}
+
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 34px;
+    margin-right: 8px;
+}
+
+.col_210 img {
+    width: 210px;
+    height: 247px;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_329 img {
+    width: 100%;
+    height: 100%;
+}
+
+.col_221 {
+    width: 221px;
+}
+
+.col_221 .h50 {
+    width: 100%;
+    height: 50%;
+}
+
+.col_221 img {
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid #ccc;
+}
+
+.col_219 {
+    width: 219px;
+}
+
+.col_219 img {
+    width: 100%;
+    height: 50%;
+}
+
+.bb {
+    border-bottom: 1px solid #ccc;
+}
